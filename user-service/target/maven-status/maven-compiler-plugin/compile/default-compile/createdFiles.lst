@@ -1,0 +1,5 @@
+net\eden\userservice\config\RedisConfig.class
+net\eden\userservice\service\UserService.class
+net\eden\userservice\util\JwtAssistant$TokenInfo.class
+net\eden\userservice\util\JwtAssistant.class
+net\eden\userservice\UserServiceApplication.class

@@ -1,0 +1,15 @@
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\service\UserService.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\domain\Privilege.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\controller\UserController.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\dao\UserDao.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\util\JwtAssistant.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\domain\Role.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\service\imp\UserServiceClientImp.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\repository\UserRepository.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\domain\User.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\config\RedisConfig.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\UserServiceApplication.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\repository\RoleRepository.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\dao\RoleDao.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\dao\PrivilegeDao.java
+d:\学习资料\JAVA\A-myApp\user-service\src\main\java\net\eden\userservice\repository\PrivilegeRepository.java

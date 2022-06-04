@@ -1,0 +1,49 @@
+server:
+    #进程端口号
+    port: 8080
+
+spring:
+    application:
+        #进程名
+        name: gateway-service
+    #Redis
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      database: 0 #0-15,一共16个数据库
+      lettuce:
+        pool:
+          max-active: 100
+          max-idle: 100
+          # 连接池中的最小空闲连接
+          min-idle: 0
+          #连接池最大阻塞等待时间（使用负值表示没有限制）
+          max-wait: -1
+      # 连接超时时间（毫秒）
+      timeout: 5000
+    cloud:
+        nacos:
+            discovery:
+                #注册中心地址
+                server-addr: 127.0.0.1:8848
+        #网关
+        gateway:
+            routes:
+                - id: signin-signup
+                  uri: lb://user-service
+                  predicates:
+                    - Path=/login/{uid},/showPrivs,/test
+
+                - id: user-service
+                  uri: lb://user-service
+                  predicates:
+                    - Path=/admin,/user
+                  filters:
+                    - Auth
+
+dubbo:
+  application:
+    name: gateway-service
+  # 配置注册中心
+  registry:
+    address: nacos://127.0.0.1:8848
